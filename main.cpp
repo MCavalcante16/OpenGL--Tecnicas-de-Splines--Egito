@@ -151,7 +151,7 @@ void viewPorts() {
         Vetor3D center2 = *new Vetor3D(1, 0, 0);
         gluLookAt(eye2.x,eye2.y,eye2.z, center2.x,center2.y,center2.z, 0.0,1.0,0.0);
         cenario();
-    //=========================================
+    //==========================================
 
     //viewport lado=================================
     if (!scissored) {
@@ -342,14 +342,6 @@ void teclado(unsigned char key, int x, int y) {
         }
     }
     //========================================//
-
-
-
-    //ViewPort Ortografico da Spline
-    case 'V':{
-        viewAladin = !viewAladin;
-    }
-
     default:
         break;
     }
